@@ -1,4 +1,11 @@
 # The Diorisis xml files in orig/ are in beta code, and must be converted to unicode.
+# This is a command line script for the conversion.
+
+# Run this script with "python3 diorisis_beta_to_unicode.py tlgxxx.xml" where 
+# tlgxxx.xml is a file in plato-texts/orig/diorisis with a three digit code instead
+# of the xxx, e.g. tlg001.xml
+
+# imports
 
 import xml.etree.ElementTree as ET
 from pathlib import Path
